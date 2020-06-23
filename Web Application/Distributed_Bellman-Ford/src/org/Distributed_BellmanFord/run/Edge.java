@@ -1,4 +1,4 @@
-package org.Thesis_webpage_BF.run;
+package org.Distributed_BellmanFord.run;
 
 public class Edge {
 	

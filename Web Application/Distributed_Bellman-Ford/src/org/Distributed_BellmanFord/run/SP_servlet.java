@@ -1,4 +1,4 @@
-package org.Thesis_webpage_BF.run;
+package org.Distributed_BellmanFord.run-Ford.run;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -16,14 +16,14 @@ import com.google.gson.Gson;
 /**
  * Servlet implementation class Thesis_servlet
  */
-@WebServlet("/Thesis_servlet")
-public class Thesis_servlet extends HttpServlet {
+@WebServlet("/SP_servlet")
+public class SP_servlet extends HttpServlet {
 	private static final long serialVersionUID = 102831973239L;
 
     /**
      * Default constructor. 
      */
-    public Thesis_servlet() {
+    public SP_servlet() {
         // TODO Auto-generated constructor stub
     }
 

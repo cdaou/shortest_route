@@ -1,4 +1,4 @@
-package org.Thesis_webpage_BF.run;
+package org.Distributed_BellmanFord.run;
 
 import java.util.ArrayList;
 import java.util.HashMap;

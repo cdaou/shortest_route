@@ -1,4 +1,4 @@
-package org.Thesis_webpage_D.run;
+package org.Centralized_Dijkstra.run;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -15,14 +15,14 @@ import com.google.gson.Gson;
 /**
  * Servlet implementation class Thesis_servlet
  */
-@WebServlet("/Thesis_servlet")
-public class Thesis_servlet extends HttpServlet {
+@WebServlet("/SP_servlet")
+public class SP_servlet extends HttpServlet {
 	private static final long serialVersionUID = 102831973239L;
 
     /**
      * Default constructor. 
      */
-    public Thesis_servlet() {
+    public SP_servlet() {
         // TODO Auto-generated constructor stub
     }
 
@@ -61,7 +61,7 @@ public class Thesis_servlet extends HttpServlet {
 	protected HashMap<Integer,Node> importData() {
 			String text = "";
 			try {
-				text = new String(Files.readAllBytes(Paths.get("C:\\Users\\daoul\\eclipse-workspace\\Thesis_webpage_D\\WebContent\\data.js")));
+				text = new String(Files.readAllBytes(Paths.get("./data.js")));
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

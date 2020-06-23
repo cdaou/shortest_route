@@ -1,4 +1,4 @@
-package org.Thesis_webpage_D.run;
+package org.Centralized_Dijkstra.run;
 
 public class Edge {
 	private int destination_id;
