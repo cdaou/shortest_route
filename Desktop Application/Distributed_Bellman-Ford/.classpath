@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="JAR/commons-logging-1.1.1.jar"/>
 	<classpathentry kind="lib" path="JAR/jxmapviewer2-2.4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
