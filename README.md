@@ -12,7 +12,7 @@ This implementation is more useful to the system administrator. In this case the
 ### How to run
 
 * To run Bellman-Ford you will need JavaFX. You can find it [here](https://gluonhq.com/products/javafx/ "JavaFX").
-  For Eclipse IDE you can just 1)Go to Help, 2)Go to Eclipse MarketPlace, 3)Search e(fx)clipse and 4)Install it. Then, to add it on the project just follow: Java Build Path > Libraries > Add Libraries > JavaFx SDK
+  For Eclipse IDE you can just `1)Go to Help, 2)Go to Eclipse MarketPlace, 3)Search e(fx)clipse and 4)Install it`. Then, to add it on the project just follow: `Java Build Path > Libraries > Add Libraries > JavaFx SDK`
 * Download a project and import as an existing project into your IDE.
 * Run Main class.
 
