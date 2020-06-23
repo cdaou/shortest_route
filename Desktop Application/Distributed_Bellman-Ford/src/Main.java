@@ -9,8 +9,8 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		final int radius = 12; //Change the radius of the nodes
-		String connectionsFilePath = "D:\\cdaou\\Επιφάνεια Εργασίας\\Connections.txt";
-		String coordinatesFilePath = "D:\\cdaou\\Επιφάνεια Εργασίας\\Coordinates.txt";
+		String connectionsFilePath = "./Connections.txt";
+		String coordinatesFilePath = "./Coordinates.txt";
 		
 		final JFrame window = new JFrame();
 		window.setExtendedState(Frame.MAXIMIZED_BOTH);
