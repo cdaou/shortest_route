@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.google.gson.Gson;
 
 /**
- * Servlet implementation class Thesis_servlet
+ * Servlet implementation class SP_servlet
  */
 @WebServlet("/SP_servlet")
 public class SP_servlet extends HttpServlet {

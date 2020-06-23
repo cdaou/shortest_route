@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.google.gson.Gson;
 
 /**
- * Servlet implementation class Thesis_servlet
+ * Servlet implementation class SP_servlet
  */
 @WebServlet("/SP_servlet")
 public class SP_servlet extends HttpServlet {
@@ -64,7 +64,7 @@ public class SP_servlet extends HttpServlet {
 	protected HashMap<Integer,Node> importData() {
 		String text = "";
 		try {
-			text = new String(Files.readAllBytes(Paths.get("C:\\Users\\daoul\\eclipse-workspace\\Thesis_webpage_BF\\WebContent\\data.js")));
+			text = new String(Files.readAllBytes(Paths.get("./data.js")));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

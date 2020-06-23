@@ -48,7 +48,7 @@
   	</style>
   </head>
   <body>
-    <form id="start_form" action="thesis_servlet" method="get">
+    <form id="start_form" action="sp_servlet" method="get">
    	  <fieldset id="field4">
       	<img src="./loading.png" style="height:50px;">
       </fieldset>
