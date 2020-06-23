@@ -31,3 +31,13 @@ This implementation is more useful to the system administrator. In this case the
 * JavaFX - https://openjfx.io/
 * Apache Commons Logging - http://commons.apache.org/proper/commons-logging/download_logging.cgi
 * jxmapviewer2 - https://github.com/msteiger/jxmapviewer2
+
+## License
+
+Copyright 2020 Christos Daoulas
+
+Licensed under the Apache License, Version 2.0 (the "License");
+
+you may not use this file except in compliance with the License. You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
