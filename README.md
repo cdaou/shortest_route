@@ -18,6 +18,6 @@ This implementation is more useful to the system administrator. In this case the
 
 ### User Interface
 
-![picture alt](https://www.dropbox.com/s/2wgfl1ro4xx0m8k/Screenshot_1.jpg?dl=0 "Dijkstra User Interface")
+![picture](https://uc874c1176464acd059c15f13d46.previews.dropboxusercontent.com/p/thumb/AA1AazRm1vP212ihhEoTRGFUqM8Wrc53-3wRx0qmWLQUcMz2x3S4JzrZgizyGNyZPv7t0PbvsI9gdalxP_qwSU43HzF3yWvRRGchN91X6AnPXZ9X7P_U6GRd4fDtx3LIz1miGJQMXkJ-vznwWx2DQEiEPj-WOxEds6Ip9o12p2R_zIeQkunrios2waVop7XqoeYVHtPL5L4MF68tHzFy9pK7azKLhyCtd79yXez6lCNfMnuwRf_48UmRgfC7CuaP25dH1I4y57olohqQlonDWoQnpM1rf8T5H44BVy8QgbXq6zdqX4h_kUItR3rRjBk6Qqy33BroE-4Y4tnwBDhZFlSiaH5UymhzZWaMe4M-DmaTO916f0Djt0FsoMLOtIlWjoI28d-iBuyexf2CgXZHAPUH/p.jpeg?fv_content=true&size_mode=5)
 
 
