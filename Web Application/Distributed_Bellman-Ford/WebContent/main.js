@@ -22,7 +22,6 @@ if(pathList[0].length>0){
 		else
 			path_code = path_code + "<a style='color:brown;font-style: normal;'><b>PATH: </b></a><a>" + pathList[j] + " &#8226 " + "</a><a style='color:brown;font-style: normal;'><b>DIST: </b></a>" + sum + "</a>";	
 	}
-	//var object_by_id = $filter('filter')(my.nodes, {ID: 1003})[0];
 	document.getElementById('nodes_text').innerHTML = nodes_code;
 	document.getElementById('path_text').innerHTML = path_code;
 }
@@ -36,11 +35,11 @@ function timeout() {
 			xhReq.open("HEAD", "./data.js", false);
 			xhReq.send(null);
 			var lastModifiedNew = xhReq.getResponseHeader("Last-Modified");
-			console.log(lastModified + " " + lastModifiedNew);
-			console.log(lastModified===lastModifiedNew);
+			console.log(lastModified + "- " + lastModifiedNew +"-"+lastModified!==lastModifiedNew);
 			if(lastModified!==lastModifiedNew){
 				document.getElementById("source_node").value = pathList[0][0];
 				document.getElementById("start_form").submit();
+				//lastModified=lastModifiedNew;
 				alert("Shortest Path(s) Have Changed!");
 			}
 		}	
@@ -60,6 +59,7 @@ function getNode(key) {
         var element = nodes[i];
         if (element.ID == key) {
            found = element;
+           break;
        } 
     }
     return found;

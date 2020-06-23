@@ -2,9 +2,15 @@
 function createMap(nodes, pathList, mapExist){
 	
 	if(mapExist===false) {
+		var h = window.innerHeight - 100;
+		  document.getElementById('mapid').innerHTML = "<div id='mapid' style='width: 100%; height:" + h + "px;'></div>";
 		  mymap = L.map('mapid').setView([40.635, 22.95], 16);
-		  L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-				attribution: 'Maps by &copy; <a href="http://osm.org/copyright">OpenStreetMap</a>. Routes from <a href="http://project-osrm.org/">OSRM</a>, data uses <a href="http://opendatacommons.org/licenses/odbl/">ODbL</a> license'
+		  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiY2Rhb3UiLCJhIjoiY2pzMzE5am44MDBuazQ0dGM4eGdsbHdnYyJ9.HwCyelTGFzfIWfXHv3V7lg', {
+		    maxZoom: 20,
+		    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+		      '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+		      'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		    id: 'mapbox.streets'
 		  }).addTo(mymap);
 		  //create markers for traffic lights
 		  for(var i=0;i<nodes.length; i++){

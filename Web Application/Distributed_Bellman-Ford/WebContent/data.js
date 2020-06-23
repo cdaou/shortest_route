@@ -113,7 +113,7 @@ data = '[{"ID":1001, \
             "longitude":22.94577, \
             "Edge":[ \
                 {"destination_id":1017,"weight":7}, \
-                {"destination_id":1018,"weight":39}] \
+                {"destination_id":1018,"weight":22}] \
         }, \
         { \
             "ID":1017, \
