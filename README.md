@@ -7,7 +7,7 @@ With the development of technology and the evolution of societies, more and more
 
 ## Desktop Application
 
-This implementation is more useful to the system administrator. In this case the map is static and shows a specific area, which has been pre-selected by the program. Τhe nodes are inserted by the administrator in the constellation and coordinate files. The advantage of this application is that the administrator can very easily edit the graph and perform tests.
+This implementation is more useful to the system administrator. In this case the map is static and shows a specific area, which has been pre-selected by the program. Τhe nodes are inserted by the administrator in the connection and coordinate files. The advantage of this application is that the administrator can very easily edit the graph and perform tests.
 
 ### How to run
 
@@ -25,6 +25,21 @@ This implementation is more useful to the system administrator. In this case the
 * In the bottom-left panel user can choose what information wants to see in the main panel.
 * In the bottom-middle panel the shortest path will appear when calculated.
 * In the bottom-right panel coordinates of mouse pointer appear.
+
+## Web Application
+This implementation is more useful to the user. In this case the map is dynamic, which means that user can drag it and zoom wherever user wishes. The pins which represent the nodes have been manually added by the user (only for the area of Thessaloniki) to the data.js file, where the coordinates of the traffic lights and the connections are stored in JSON form. The advantage of this application is that is very user-friendly and is essentially the end product, which will be used by the user.
+
+
+### How to run
+
+### User Interface
+![picture](https://uc9d3bb3ee3e1e045e4b9402dbf9.previews.dropboxusercontent.com/p/thumb/AA16obuorThtOSr9q8L884XVA36U1curltlprTRTGszRrb7b_ZPgy4IcyKuUP28yEmFASsg0qxDqrQ5WGi5GpYgSjSl1KeDd8c9r4UmlzmJzbWZ_o0JRdPU3R9DTUY00o_uNSx7V70e8Pv1eAk9mYbrqhWgs_bDIB4ADf8ogO9gh8Ja1b5hVXD16qcAmhldu_A55ErqyxsBzpBJHliGRYOYW5APJoeZzxwJRhhJRf4p9C0QE4OsckyxwPhb78dLvTxSOMrMlbJXJ7fuN-wwUQ1rIVhuLzoysfMNBU9g0EdbpPi15fsNTLfqWKl00qK1Sgz7Q5jpojSIfD_DuCkxWASZGrb_40AxNaY_qyu0lPhRK3SY92P51fI7-xlan2NKXF3Qz3nW5WU7MiyiCEVTE5_xn/p.jpeg?fv_content=true&size_mode=5)
+
+* In the top panel user can choose the initial node and the destination-nodes to which shortest paths will be calculated and shown on the map.
+* The map is draggable and zoomable. User can click on each pin to see its info.
+* The user's location can be shown, too.
+* In the bottom of the map, the runtime is calculated and shown. 
+* If there will be a change in a path, then user gets an alert and the new shortest path(s) is shown up.
 
 ## Dependencies
 
