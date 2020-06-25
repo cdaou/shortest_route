@@ -7,11 +7,12 @@ import java.util.HashMap;
 import javax.swing.JLayeredPane;
 import javax.swing.JOptionPane;
 
-/**
- * @author Christos Daoulas
- */
 
 public class importData {
+	
+	/**
+	 * @author Christos Daoulas
+	 */
 	
 	static private String coordinatesFilePath, connectionsFilePath;
 	static private int frameY;
