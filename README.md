@@ -49,7 +49,7 @@ This implementation is more useful to the user. In this case the map is dynamic,
 
 ## License
 
-Copyright 2020 Christos Daoulas
+Copyright 2019 Christos Daoulas
 
 Licensed under the Apache License, Version 2.0 (the "License");
 
