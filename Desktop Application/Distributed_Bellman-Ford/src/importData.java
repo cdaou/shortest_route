@@ -9,6 +9,10 @@ import javax.swing.JOptionPane;
 
 public class importData {
 	
+	/**
+	 * @author Christos Daoulas
+	 */
+	
 	static private String coordinatesFilePath, connectionsFilePath;
 	static private int frameY;
 	
@@ -37,7 +41,7 @@ public class importData {
 					list.add(s);
 				addNode = new Node(list.get(0), Integer.parseInt(list.get(1)), frameY - Integer.parseInt(list.get(2)));
 				if((addNode.getX()>workingPanel.getWidth() || java.lang.Math.abs(addNode.getY()-frameY)>workingPanel.getHeight()+3*margin || java.lang.Math.abs(addNode.getY()-frameY)<3*margin) && show){
-					if (JOptionPane.showConfirmDialog(null, "Ôhe coordinates of a node go out of the screen boundaries("+workingPanel.getWidth()+","+workingPanel.getHeight()+"). Would you like to proceed?", "Warning!", JOptionPane.YES_NO_OPTION) == JOptionPane.NO_OPTION) {
+					if (JOptionPane.showConfirmDialog(null, "Ã”he coordinates of a node go out of the screen boundaries("+workingPanel.getWidth()+","+workingPanel.getHeight()+"). Would you like to proceed?", "Warning!", JOptionPane.YES_NO_OPTION) == JOptionPane.NO_OPTION) {
 						System.exit(0);
 					}
 					show = false;
