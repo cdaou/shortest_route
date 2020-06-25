@@ -40,7 +40,7 @@ import org.jxmapviewer.viewer.TileFactoryInfo;
 public class drawPanels extends JFrame{
 	
 	/**
-	 * @author daoul
+	 * @author Christos Daoulas
 	 */
 	private static final long serialVersionUID = 5712112955556059056L;
 
@@ -309,7 +309,7 @@ public class drawPanels extends JFrame{
 						}); 
 						changeWeight.addActionListener(new ActionListener() {
 							public void actionPerformed(ActionEvent changeEvent) {
-								String destinationNodeName = JOptionPane.showInputDialog(middlePanel, "Ôhe weight of the line connecting node "+v.getValue().getName()+" to which node you want to change?");
+								String destinationNodeName = JOptionPane.showInputDialog(middlePanel, "Ã”he weight of the line connecting node "+v.getValue().getName()+" to which node you want to change?");
 								String newWeight="";
 								if(destinationNodeName!=null && destinationNodeName.length()>0) {
 									if(nodeList.containsKey(destinationNodeName)){
