@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
-  <servlet>
-    <servlet-name>Dijkstra_Servlet</servlet-name>
-    <servlet-class>org.Centralized_Dijkstra.run.Dijkstra_servlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>Dijkstra_Servlet</servlet-name>
-    <url-pattern>/dijkstra_servlet</url-pattern>
-  </servlet-mapping>
-  <display-name>Centralized_Dijkstra</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
     <welcome-file>index.htm</welcome-file>
@@ -21,4 +12,14 @@
     <welcome-file>data.js</welcome-file>
     <welcome-file>red-location-icon-map-png-4.png</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <servlet-name>Dijkstra_Servlet</servlet-name>
+    <servlet-class>org.Centralized_Dijkstra.run.Dijkstra_servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dijkstra_Servlet</servlet-name>
+    <url-pattern>/dijkstra_servlet</url-pattern>
+  </servlet-mapping>
+  <display-name>Centralized_Dijkstra</display-name>
+  
 </web-app>
