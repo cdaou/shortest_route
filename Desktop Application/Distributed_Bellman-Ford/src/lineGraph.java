@@ -10,6 +10,10 @@ import javafx.scene.chart.XYChart.Series;
  
 public class lineGraph{
 	
+	/**
+	 * @author Christos Daoulas
+	 */
+	
 	//defining a series
 	@SuppressWarnings("rawtypes")
 	private static ArrayList<Series> series = new ArrayList<Series>();
