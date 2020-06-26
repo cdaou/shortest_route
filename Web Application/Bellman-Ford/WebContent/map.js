@@ -101,7 +101,6 @@ function updatePaths(pathList, pathIndex){
 		var pathID = 'route'+pathIndex;
 		var last = pathList[pathIndex].length - 1;
 		var pathLayer = map.getLayer(pathID);
-		  console.log(paths[0][0]);
 		if(document.getElementById(pathList[pathIndex][last]).checked === false){
 			if(typeof pathLayer !== 'undefined'){
 				try {

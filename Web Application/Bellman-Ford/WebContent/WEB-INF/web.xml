@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+   
+    <servlet>
+        <servlet-name>BellmanFordServlet</servlet-name>
+        <servlet-class>org.BellmanFord.run.BellmanFordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BellmanFordServlet</servlet-name>
+        <url-pattern>/bf_servlet</url-pattern>
+    </servlet-mapping>
+    
+    <display-name>BellmanFordServlet</display-name>
+	  <welcome-file-list>
+	    <welcome-file>index.html</welcome-file>
+	    <welcome-file>index.htm</welcome-file>
+	    <welcome-file>index.jsp</welcome-file>
+	    <welcome-file>default.html</welcome-file>
+	    <welcome-file>default.htm</welcome-file>
+	    <welcome-file>default.jsp</welcome-file>
+	    <welcome-file>map.js</welcome-file>
+	    <welcome-file>main.js</welcome-file>
+	    <welcome-file>data.js</welcome-file>
+	    <welcome-file>red-location-icon-map-png-4.png</welcome-file>
+	  </welcome-file-list>
+
+</web-app>

@@ -3,7 +3,7 @@
 <%@ page import ="java.util.ArrayList"%>
 <%@ page import ="java.util.List"%>
   <head>
-  	<title> Shortest Path - Dijkstra</title>
+  	<title>Shortest Path - Bellman-Ford</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
       integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -57,7 +57,7 @@
   </head>
   <body>
   
-    <form id="start_form" action="dijkstra_servlet" method="get">
+    <form id="start_form" action="bf_servlet" method="get">
    	  <fieldset id="field4">
       	<img src="./loading.png" style="height:50px;">
       </fieldset>
