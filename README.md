@@ -31,6 +31,9 @@ This implementation is more useful to the user. In this case the map is dynamic,
 
 
 ### How to run
+* Download a project and import as an existing project into your IDE.
+* Run Launch class.
+* Visit http://localhost:8080/index.jsp from a browser.
 
 ### User Interface
 ![picture](https://uc9d3bb3ee3e1e045e4b9402dbf9.previews.dropboxusercontent.com/p/thumb/AA16obuorThtOSr9q8L884XVA36U1curltlprTRTGszRrb7b_ZPgy4IcyKuUP28yEmFASsg0qxDqrQ5WGi5GpYgSjSl1KeDd8c9r4UmlzmJzbWZ_o0JRdPU3R9DTUY00o_uNSx7V70e8Pv1eAk9mYbrqhWgs_bDIB4ADf8ogO9gh8Ja1b5hVXD16qcAmhldu_A55ErqyxsBzpBJHliGRYOYW5APJoeZzxwJRhhJRf4p9C0QE4OsckyxwPhb78dLvTxSOMrMlbJXJ7fuN-wwUQ1rIVhuLzoysfMNBU9g0EdbpPi15fsNTLfqWKl00qK1Sgz7Q5jpojSIfD_DuCkxWASZGrb_40AxNaY_qyu0lPhRK3SY92P51fI7-xlan2NKXF3Qz3nW5WU7MiyiCEVTE5_xn/p.jpeg?fv_content=true&size_mode=5)
