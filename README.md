@@ -50,6 +50,12 @@ This implementation is more useful to the user. In this case the map is dynamic,
 * Apache Commons Logging - http://commons.apache.org/proper/commons-logging/download_logging.cgi
 * jxmapviewer2 - https://github.com/msteiger/jxmapviewer2
 
+* GSON - https://github.com/google/gson
+* Apache Tomcat - http://tomcat.apache.org/
+* Leaflet - https://leafletjs.com/
+* Mapbox - https://www.mapbox.com/
+
+
 ## License
 
 Copyright 2019 Christos Daoulas
