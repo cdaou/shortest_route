@@ -1,4 +1,4 @@
-package org.Centralized_Dijkstra.run;
+package org.Dijkstra.run;
 
 public class Edge {
 	private int destination_id;

@@ -13,11 +13,11 @@
     <welcome-file>red-location-icon-map-png-4.png</welcome-file>
   </welcome-file-list>
   <servlet>
-    <servlet-name>Dijkstra_Servlet</servlet-name>
-    <servlet-class>org.Centralized_Dijkstra.run.Dijkstra_servlet</servlet-class>
+    <servlet-name>DijkstraServlet</servlet-name>
+    <servlet-class>org.Dijkstra.run.DijkstraServlet</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>Dijkstra_Servlet</servlet-name>
+    <servlet-name>DijkstraServlet</servlet-name>
     <url-pattern>/dijkstra_servlet</url-pattern>
   </servlet-mapping>
   <display-name>Centralized_Dijkstra</display-name>

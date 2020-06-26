@@ -1,4 +1,4 @@
-package org.Centralized_Dijkstra.run;
+package org.Dijkstra.run;
 
 public class Node implements Comparable<Node> {
 	private int ID;

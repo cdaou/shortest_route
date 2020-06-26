@@ -3,6 +3,7 @@
 <%@ page import ="java.util.ArrayList"%>
 <%@ page import ="java.util.List"%>
   <head>
+  	<title> Shortest Path - Dijkstra</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
       integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -77,12 +78,12 @@
     </form>
     <%  
     	ArrayList<ArrayList<Integer>> tempList = new ArrayList<>();
-    	tempList = (ArrayList<ArrayList<Integer>>) request.getAttribute("paths_"); 
+    	tempList = (ArrayList<ArrayList<Integer>>) request.getAttribute("paths"); 
     %>
     <script type="text/javascript"> 
     		//IF DESTINATIONS ARE MORE THAN THREE CHANGE PATHLIST SIZE HERE--->
     		var pathList = [[],[],[]];
-    		<%if (request.getAttribute("paths_") != null){%>
+    		<%if (request.getAttribute("paths") != null){%>
     			<%for(int j=0;j<tempList.size();j++){%>
 	    			<%for(int i=0;i<tempList.get(j).size();i++){%>
 	        	    	pathList[<%=j%>].push(<%= tempList.get(j).get(i) %>);

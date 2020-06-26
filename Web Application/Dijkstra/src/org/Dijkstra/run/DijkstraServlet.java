@@ -1,4 +1,4 @@
-package org.Centralized_Dijkstra.run;
+package org.Dijkstra.run;
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -17,13 +17,13 @@ import com.google.gson.Gson;
  * Servlet implementation class Thesis_servlet
  */
 @WebServlet("/Dijkstra_servlet")
-public class Dijkstra_servlet extends HttpServlet {
+public class DijkstraServlet extends HttpServlet {
 	private static final long serialVersionUID = 102831973239L;
 
     /**
      * Default constructor. 
      */
-    public Dijkstra_servlet() {
+    public DijkstraServlet() {
         // TODO Auto-generated constructor stub
     }
 	/**
@@ -45,7 +45,7 @@ public class Dijkstra_servlet extends HttpServlet {
 			tempList = d.getShortestPathTo(nodes.get(destinations[i]));
 			pathList.add(tempList);
 		}
-		request.setAttribute("paths_", pathList);
+		request.setAttribute("paths", pathList);
 		request.setAttribute("elapsedTime", estimatedTime);
 		RequestDispatcher view = request.getRequestDispatcher("index.jsp");
 		view.forward(request, response);

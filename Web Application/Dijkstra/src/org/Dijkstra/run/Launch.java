@@ -1,4 +1,4 @@
-package org.Centralized_Dijkstra.run;
+package org.Dijkstra.run;
 
 import java.io.File;
 import java.io.IOException;

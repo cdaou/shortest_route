@@ -1,4 +1,4 @@
-package org.Centralized_Dijkstra.run;
+package org.Dijkstra.run;
 
 import java.util.ArrayList;
 import java.util.Collections;
