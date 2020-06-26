@@ -30,13 +30,15 @@
     	width:100%;
 	}
 	#field1{
-	    width: 220px;
+	    width: 230px;
 	    height: 35px;
 	}
 	#field2 {
-	    width: calc(100% - 283px);
+	    width: calc(100% - 300px);
 	    min-height: 35px;
 	    min-width: 305px;
+        float: right;
+   		margin-right: 3px;
 	}
 	#field3 {
 	    width: calc(100% - 63px);
@@ -99,7 +101,7 @@
      	if( timeElapsed >0 ){
      		timeElapsed = timeElapsed/1000000;
      	}
-	     	document.getElementById('time').innerHTML = "The time to calculate the shortest path in mili seconds: " + (Math.round(timeElapsed * 100) / 100).toFixed(3);
+	     	document.getElementById('time').innerHTML = "<i>The time to calculate the shortest path(s) is: </i><b>" + (Math.round(timeElapsed * 100) / 100).toFixed(3) + " ms</b>";
    	</script>
   </body>
 </html>
