@@ -1,9 +1,9 @@
-# shortest_route
+# Shortest Route Problem
 
 This is a solution to the shortest route problem, using network routing algorithms in transport networks.
 
 ## Description
-With the development of technology and the evolution of societies, more and more people are using a passenger car, which, combined with the urbanization of the modern times, results in traffic congestion and long delay in passenger movement, especially in large urban centers. Thus, in the context of Intelligent Transport Systems (ITS) and aiming at traffic decongestion, in this project a Java and JavaScript application has been developed, that implement network routing algorithms in transport networks to find the shortest route. More specifically, the communication technologies used in ITS, network routing algorithms and protocols were studied and the Dijkstra and Bellman-Ford algorithms were used to develop the application. The algorithms are applied to a graph representing a part of the road network, that is roads are considered as the links and lanterns as the nodes of the graph and the weight of the links indicates the traffic factor that has a road at that moment. The user can select the initial node in which is located, and the system calculates and displays the shortest path to certain specific destinations (e.g. airport, bus station, central points, etc.) defined by the administrator. Βoth projects were implemented for the area of the center of Thessaloniki.
+With the development of technology and the evolution of societies, more and more people are using a passenger car, which, combined with the urbanization of the modern times, results in traffic congestion and long delay in passenger movement, especially in large urban centers. Thus, in the context of Intelligent Transport Systems (ITS) and aiming at traffic decongestion, in this project a Java and JavaScript application has been developed, that implement network routing algorithms in transport networks to find the shortest route. More specifically, the communication technologies used in ITS, network routing algorithms and protocols were studied and the (centralized) Dijkstra and (distributed) Bellman-Ford algorithms were used to develop the application. The algorithms are applied to a graph representing a part of the road network, that is roads are considered as the links and lanterns as the nodes of the graph and the weight of the links indicates the traffic factor that has a road at that moment. The user can select the initial node in which is located, and the system calculates and displays the shortest path to certain specific destinations (e.g. airport, bus station, central points, etc.) defined by the administrator. Βoth projects were implemented for the area of the center of Thessaloniki.
 
 ## Desktop Application
 
@@ -31,6 +31,9 @@ This implementation is more useful to the user. In this case the map is dynamic,
 
 
 ### How to run
+* Download a project and import as an existing project into your IDE.
+* Run Launch class.
+* Visit http://localhost:8080/index.jsp from a browser.
 
 ### User Interface
 ![picture](https://uc9d3bb3ee3e1e045e4b9402dbf9.previews.dropboxusercontent.com/p/thumb/AA16obuorThtOSr9q8L884XVA36U1curltlprTRTGszRrb7b_ZPgy4IcyKuUP28yEmFASsg0qxDqrQ5WGi5GpYgSjSl1KeDd8c9r4UmlzmJzbWZ_o0JRdPU3R9DTUY00o_uNSx7V70e8Pv1eAk9mYbrqhWgs_bDIB4ADf8ogO9gh8Ja1b5hVXD16qcAmhldu_A55ErqyxsBzpBJHliGRYOYW5APJoeZzxwJRhhJRf4p9C0QE4OsckyxwPhb78dLvTxSOMrMlbJXJ7fuN-wwUQ1rIVhuLzoysfMNBU9g0EdbpPi15fsNTLfqWKl00qK1Sgz7Q5jpojSIfD_DuCkxWASZGrb_40AxNaY_qyu0lPhRK3SY92P51fI7-xlan2NKXF3Qz3nW5WU7MiyiCEVTE5_xn/p.jpeg?fv_content=true&size_mode=5)
@@ -46,6 +49,12 @@ This implementation is more useful to the user. In this case the map is dynamic,
 * JavaFX - https://openjfx.io/
 * Apache Commons Logging - http://commons.apache.org/proper/commons-logging/download_logging.cgi
 * jxmapviewer2 - https://github.com/msteiger/jxmapviewer2
+
+* GSON - https://github.com/google/gson
+* Apache Tomcat - http://tomcat.apache.org/
+* Leaflet - https://leafletjs.com/
+* Mapbox - https://www.mapbox.com/
+
 
 ## License
 
