@@ -27,7 +27,7 @@ This implementation is more useful to the system administrator. In this case the
 * In the bottom-right panel coordinates of mouse pointer appear.
 
 ## Web Application
-This implementation is more useful to the user. In this case the map is dynamic, which means that user can drag it and zoom wherever user wishes. The pins which represent the nodes have been manually added by the user (only for the area of Thessaloniki) to the data.js file, where the coordinates of the traffic lights and the connections are stored in JSON form. The advantage of this application is that is very user-friendly and is essentially the end product, which will be used by the user.
+This implementation is more useful to the user. In this case the map is dynamic, which means that the user can drag it (and/or zoom) to any area. The pins which represent the nodes have been manually added by the user (only for the area of Thessaloniki) to the data.js file, where the coordinates of the traffic lights and the connections are stored in JSON form. The advantage of this application is that is very user-friendly and is essentially the end product, which will be used by the user.
 
 
 ### How to run
@@ -49,7 +49,7 @@ This implementation is more useful to the user. In this case the map is dynamic,
 
 ## License
 
-Copyright 2020 Christos Daoulas
+Copyright 2019 Christos Daoulas
 
 Licensed under the Apache License, Version 2.0 (the "License");
 
